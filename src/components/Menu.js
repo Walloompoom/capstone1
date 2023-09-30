@@ -45,8 +45,8 @@ const handleOrder = (id) => {
             <img src={recipe.image} alt="" />
             <div className="menu-content">
               <div className="heading">
-                <h5>{recipe.title}</h5>
-                <p>${recipe.price}</p>
+                <h3 className="pad">{recipe.title}</h3>
+                <h3 className="pad">${recipe.price}</h3>
               </div>
               <p>{recipe.description}</p>
               <button className="orderbtn" onClick={() => handleOrder(recipe.id)}>Order Now</button>

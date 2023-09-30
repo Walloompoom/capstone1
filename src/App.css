@@ -92,6 +92,10 @@ h3 {
   font-size: 25px;
 }
 
+h3.pad {
+  margin-top: 8px;
+}
+
 .banner p {
   font-size: 20px;
   max-width: 520px;
@@ -202,6 +206,8 @@ input, label{
 
 .menu-content{
   padding: 5px 15px;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 
